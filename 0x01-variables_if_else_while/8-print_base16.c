@@ -9,7 +9,7 @@ int main(void)
 	int i;
 	char alphabetLow[27] = "abcdef";
 
-	for (i = 1; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar('0' + i);
 	}
