@@ -8,6 +8,7 @@ int main(void)
 {
 	int i;
 	char alphabetLow[27] = "abcdefghijklmnopqrstuvwxyz";
+
 	for (i = 0; i < 26; i++)
 	{
 		if (alphabetLow[i] == 'q' || alphabetLow[i] == 'e')
