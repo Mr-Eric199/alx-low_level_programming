@@ -1,19 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main- main function
+ * Return: return 0
+*/
 int main(void)
 {
 	int i;
-	char alphabetLow[27] = "abcdefghijklmnopqrstuvwxyz";
-	for (i = 26; i >= 0; i--)
-    {
-        putchar(alphabetLow[i]);
-        putchar('\n');
-    }
+	char alphabetLow[26] = "abcdefghijklmnopqrstuvwxyz";
 
-
-
+	for (i = 25; i >= 0; i--)
+	{
+		putchar(alphabetLow[i]);
+	}
+	putchar('\n');
 	return (0);
 }
