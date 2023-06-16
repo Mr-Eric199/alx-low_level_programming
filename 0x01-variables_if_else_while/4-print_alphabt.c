@@ -7,8 +7,7 @@
 int main(void)
 {
 	int i;
-	char alphabetLow[27] = "abcdefghijklmnopqrstuvwxyz";
-	
+	char alphabetLow[27] = "abcdefghijklmnopqrstuvwxyz";	
 	for (i = 0; i < 26; i++)
 	{
 		if (alphabetLow[i] == 'q' || alphabetLow[i] == 'e' )
@@ -16,7 +15,8 @@ int main(void)
 			continue;
 		}
 		putchar(alphabetLow[i]);
-		putchar('\n');
+	
 	}
+	putchar('\n');
 return (0);
 }
