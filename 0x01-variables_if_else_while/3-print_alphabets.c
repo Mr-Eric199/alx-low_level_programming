@@ -10,11 +10,11 @@ int main(void)
 	char alphabetUp[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 27; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabetLow[i]);
 	}
-	for (i = 0; i < 27; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabetUp[i]);
 	}
