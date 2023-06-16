@@ -1,27 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main- main function
+ * Return: return 0
+*/
 int main(void)
 {
-	int i;
-	int j;
-	for (i = 0; i < 100; i++)
+int num1, num2;
+
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		for (j = i; j < 100; j++)
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			putchar('0' + (i / 10));
-			putchar('0' + (i % 10));
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
 			putchar(' ');
-			putchar('0' + (j / 10));
-			putchar('0' + (j % 10));
-			if (i != 99 || j != 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+			if (num1 == 98 && num2 == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
