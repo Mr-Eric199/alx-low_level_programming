@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-/** more headers goes there
+/**
  * main- main function
- * Return- return o
+ * Return: return o
 */
 int main(void)
 {
