@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - main funtion
+ * main- main funtion
  * Return: return 0
- *  more headers goes there
- *  betty style doc for function main goes there
+ * more headers goes there
+ * betty style doc for function main goes there
 */
 
 int main(void)
@@ -16,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("is negative\n");
+		printf("%d is negative\n", n);
 	}
 return (0);
 }
