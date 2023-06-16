@@ -2,18 +2,17 @@
 #include <stdio.h>
 /**
  *main- main function
- *Return - return 0
+ *Return: return 0
 */
 
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int i;
-	char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet;
 
-	for (i = 0; i < 27; i++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alphabet[i]);
+		putchar(alphabet);
 	}
 return (0);
 }
