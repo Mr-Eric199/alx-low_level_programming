@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * add- sum function
- * @a: int 
+ * @a: int
  * @b: int
- * Return: 0
+ * Return: return 0
 */
 
 int add(int a, int b)
