@@ -7,13 +7,9 @@
 */
 int main(void)
 {
-    char n[9]="_putchar";
-    int i;
+	char n[9]="_putchar";
 
-    for (i = 0; i < 8; i++)
-    {
-        _putchar(n[i]);
-        _putchar('\n');
-    }
-    return (0);
+	_putchar(n);
+	_putchar('\n');
+	return (0);
 }
