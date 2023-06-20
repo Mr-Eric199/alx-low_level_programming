@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * add- sum function
+ * @a: int 
+ * @b: int
  * Return: 0
 */
 
