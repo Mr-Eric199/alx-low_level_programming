@@ -2,7 +2,7 @@
 /**
  * main- function for positive or negative
  * Return: return 0
- */
+*/
 int main(void)
 {
 	int i;
