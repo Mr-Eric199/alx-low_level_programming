@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * free_safely_listint - Safely frees a linked list of type listint_t.
- * @head: Pointer to the pointer to the first node of the list.
+ * free_listint_safe - Safely frees a linked list of type listint_t.
+ * @h: Pointer to the pointer to the first node of the list.
  *
  * Return: Number of elements in the freed list.
  */

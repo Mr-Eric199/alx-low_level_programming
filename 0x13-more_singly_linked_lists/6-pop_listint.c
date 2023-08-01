@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * remove_first_listint_element - Remove the first element of a singly linked list.
+ * pop_listint- Remove the first element of a singly linked list.
  * @head: Pointer to the head of the list.
  * Return: Integer value of the removed element if success; otherwise, 0.
  **/

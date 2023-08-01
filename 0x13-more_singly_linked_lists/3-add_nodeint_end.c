@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * append_nodeint - Append a new node at the end of a linked list.
+ * add_nodeint_end - Append a new node at the end of a linked list.
  * @head: Address of the pointer to the first node of the list.
- * @data: Integer value to be stored in the new node.
+ * @n: Integer value to be stored in the new node.
  * Return: Address of the new node.
  **/
 

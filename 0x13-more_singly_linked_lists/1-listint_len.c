@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * count_listint_elements - Count the number of elements in the list.
- * @head: Pointer to the head of the list.
+ * listint_len - Count the number of elements in the list.
+ * @h: Pointer to the head of the list.
  * Return: Number of elements in the list.
  **/
 

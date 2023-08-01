@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * release_listint - Release the memory occupied by a linked list.
+ * free_listint - Release the memory occupied by a linked list.
  * @head: Pointer to the first node of the list.
  **/
 

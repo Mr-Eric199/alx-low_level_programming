@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * release_listint_and_reset - Frees a linked list and resets the head pointer to NULL.
+ * free_listint2- Frees a linked list and resets the head pointer to NULL.
  * @head: Address of the pointer to the first node of the list.
  **/
 

@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint_safely - Safely prints a linked list of type listint_t.
+ * print_listint_safe - Safely prints a linked list of type listint_t.
  * @head: Pointer to the head of the list to print.
  *
  * Return: The number of nodes in the list.

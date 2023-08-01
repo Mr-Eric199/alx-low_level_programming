@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * display_listint_elements - Display elements of a singly linked list.
- * @head: Pointer to the head of the list.
+ * print_listint - Display elements of a singly linked list.
+ * @h: Pointer to the head of the list.
  * Return: Number of elements in the list.
  **/
 size_t print_listint(const listint_t *h)
